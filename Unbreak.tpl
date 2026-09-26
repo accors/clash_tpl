@@ -12,7 +12,7 @@
     DOMAIN,sycm.mmstat.com,{{ rule }}
   # > Google
     DOMAIN-SUFFIX,blog.google,{{ rule }}
-    DOMAIN SUFFIX,googletraveladservices.com,{{ rule }}
+    DOMAIN-SUFFIX,googletraveladservices.com,{{ rule }}
     DOMAIN,clientservices.googleapis.com,{{ rule }}
     DOMAIN,dl.google.com,{{ rule }}
     DOMAIN,dl.l.google.com,{{ rule }}
