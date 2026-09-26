@@ -13,7 +13,7 @@
     PROCESS-NAME,com.tencent.ibg.joox,{{ rule }}
     PROCESS-NAME,com.tencent.ibg.jooxtv,{{ rule }}
     DOMAIN-SUFFIX,joox.com,{{ rule }}
-    DOMAIN-KEYWORD,jooxweb api,{{ rule }}
+    DOMAIN-KEYWORD,jooxweb-api,{{ rule }}
   # > KKBOX
     PROCESS-NAME,com.skysoft.kkbox.android,{{ rule }}
     DOMAIN-SUFFIX,kkbox.com,{{ rule }}
@@ -34,7 +34,7 @@
     DOMAIN-SUFFIX,spotify.com,{{ rule }}
     DOMAIN-SUFFIX,spoti.fi,{{ rule }}
     DOMAIN-KEYWORD,spotify.com,{{ rule }}
-    DOMAIN-KEYWORD, spotify com,{{ rule }}
+    DOMAIN-KEYWORD,spotify.com,{{ rule }}
   # > TIDAL
     PROCESS-NAME,com.aspiro.tidal,{{ rule }}
     DOMAIN-SUFFIX,tidal.com,{{ rule }}
@@ -62,7 +62,7 @@
     DOMAIN-SUFFIX,media-amazon.com,{{ rule }}
     DOMAIN,atv-ps.amazon.com,{{ rule }}
     DOMAIN,fls-na.amazon.com,{{ rule }}
-    DOMAIN,avodmp4s3ww a.akamaihd.net,{{ rule }}
+    DOMAIN,avodmp4s3ww-a.akamaihd.net,{{ rule }}
     DOMAIN,d25xi40x97liuc.cloudfront.net,{{ rule }}
     DOMAIN,dmqdd6hw24ucf.cloudfront.net,{{ rule }}
     DOMAIN,dmqdd6hw24ucf.cloudfront.net,{{ rule }}
@@ -73,8 +73,8 @@
   # > Apple TV
     DOMAIN-SUFFIX,tv.apple.com,{{ rule }}
     DOMAIN,hls.itunes.apple.com,{{ rule }}
-    DOMAIN,hls amt.itunes.apple.com,{{ rule }}
-    DOMAIN,play edge.itunes.apple.com,{{ rule }}
+    DOMAIN,hls-amt.itunes.apple.com,{{ rule }}
+    DOMAIN,play-edge.itunes.apple.com,{{ rule }}
   # > Bahamut
     PROCESS-NAME,tw.com.gamer.android.animad,{{ rule }}
     DOMAIN-SUFFIX,bahamut.com.tw,{{ rule }}
@@ -86,7 +86,7 @@
     DOMAIN-SUFFIX,bbc.co.uk,{{ rule }}
     DOMAIN-SUFFIX,bbci.co.uk,{{ rule }}
     DOMAIN-KEYWORD,bbcfmt,{{ rule }}
-    DOMAIN-KEYWORD,uk live,{{ rule }}
+    DOMAIN-KEYWORD,uk-live,{{ rule }}
   # > DAZN
     PROCESS-NAME,com.dazn,{{ rule }}
     DOMAIN-SUFFIX,dazn.com,{{ rule }}
@@ -104,12 +104,12 @@
     PROCESS-NAME,com.dmm.app.movieplayer,{{ rule }}
     DOMAIN-SUFFIX,dmm.co.jp,{{ rule }}
     DOMAIN-SUFFIX,dmm.com,{{ rule }}
-    DOMAIN-SUFFIX,dmm extension.com,{{ rule }}
+    DOMAIN-SUFFIX,dmm-extension.com,{{ rule }}
   # > encoreTVB
     PROCESS-NAME,com.tvbusa.encore,{{ rule }}
     DOMAIN-SUFFIX,encoretvb.com,{{ rule }}
     DOMAIN,edge.api.brightcove.com,{{ rule }}
-    DOMAIN,bcbolt446c5271 a.akamaihd.net,{{ rule }}
+    DOMAIN,bcbolt446c5271-a.akamaihd.net,{{ rule }}
   # > FOX NOW
     PROCESS-NAME,com.fox.now,{{ rule }}
     DOMAIN-SUFFIX,fox.com,{{ rule }}
@@ -138,13 +138,13 @@
     DOMAIN,players.brightcove.net,{{ rule }}
     DOMAIN,s3-ap-southeast-1.amazonaws.com,{{ rule }}
     DOMAIN,dai3fd1oh325y.cloudfront.net,{{ rule }}
-    DOMAIN,44wilhpljf.execute api.ap southeast 1.amazonaws.com,{{ rule }}
+    DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,{{ rule }}
     DOMAIN,hboasia1-i.akamaihd.net,{{ rule }}
     DOMAIN,hboasia2-i.akamaihd.net,{{ rule }}
     DOMAIN,hboasia3-i.akamaihd.net,{{ rule }}
     DOMAIN,hboasia4-i.akamaihd.net,{{ rule }}
     DOMAIN,hboasia5-i.akamaihd.net,{{ rule }}
-    DOMAIN,cf-images.ap-southeast 1.prod.boltdns.net,{{ rule }}
+    DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,{{ rule }}
   # > 华文电视
   # USER AGENT,HWTVMobile*
     DOMAIN-SUFFIX,5itv.tv,{{ rule }}
@@ -163,12 +163,12 @@
     PROCESS-NAME,air.ITVMobilePlayer,{{ rule }}
     DOMAIN-SUFFIX,itv.com,{{ rule }}
     DOMAIN-SUFFIX,itvstatic.com,{{ rule }}
-    DOMAIN,itvpnpmobile a.akamaihd.net,{{ rule }}
+    DOMAIN,itvpnpmobile-a.akamaihd.net,{{ rule }}
   # > KKTV
     PROCESS-NAME,com.kktv.kktv,{{ rule }}
     DOMAIN-SUFFIX,kktv.com.tw,{{ rule }}
     DOMAIN-SUFFIX,kktv.me,{{ rule }}
-    DOMAIN,kktv theater.kk.stream,{{ rule }}
+    DOMAIN,kktv-theater.kk.stream,{{ rule }}
   # > LINE TV
     PROCESS-NAME,com.linecorp.linetv,{{ rule }}
     DOMAIN-SUFFIX,linetv.tw,{{ rule }}
@@ -205,18 +205,18 @@
     DOMAIN-SUFFIX,netflixdnstest7.com,{{ rule }}
     DOMAIN-SUFFIX,netflixdnstest8.com,{{ rule }}
     DOMAIN-SUFFIX,netflixdnstest9.com,{{ rule }}
-    IP-CIDR,23.246.0.0/18,no-resolve,{{ rule }}
-    IP-CIDR,37.77.184.0/21,no-resolve,{{ rule }}
-    IP-CIDR,45.57.0.0/17,no-resolve,{{ rule }}
-    IP-CIDR,64.120.128.0/17,no-resolve,{{ rule }}
-    IP-CIDR,66.197.128.0/17,no-resolve,{{ rule }}
-    IP-CIDR,108.175.32.0/20,no-resolve,{{ rule }}
-    IP-CIDR,192.173.64.0/18,no-resolve,{{ rule }}
-    IP-CIDR,198.38.96.0/19,no-resolve,{{ rule }}
-    IP-CIDR,198.45.48.0/20,no-resolve,{{ rule }}
-    IP-CIDR,34.210.42.111/32,no-resolve,{{ rule }}
-    IP-CIDR,52.89.124.203/32,no-resolve,{{ rule }}
-    IP-CIDR,54.148.37.5/32,no-resolve,{{ rule }}
+    IP-CIDR,23.246.0.0/18,{{ rule }},no-resolve
+    IP-CIDR,37.77.184.0/21,{{ rule }},no-resolve
+    IP-CIDR,45.57.0.0/17,{{ rule }},no-resolve
+    IP-CIDR,64.120.128.0/17,{{ rule }},no-resolve
+    IP-CIDR,66.197.128.0/17,{{ rule }},no-resolve
+    IP-CIDR,108.175.32.0/20,{{ rule }},no-resolve
+    IP-CIDR,192.173.64.0/18,{{ rule }},no-resolve
+    IP-CIDR,198.38.96.0/19,{{ rule }},no-resolve
+    IP-CIDR,198.45.48.0/20,{{ rule }},no-resolve
+    IP-CIDR,34.210.42.111/32,{{ rule }},no-resolve
+    IP-CIDR,52.89.124.203/32,{{ rule }},no-resolve
+    IP-CIDR,54.148.37.5/32,{{ rule }},no-resolve
   # > niconico
     PROCESS-NAME,jp.nicovideo.android,{{ rule }}
     DOMAIN-SUFFIX,dmc.nico,{{ rule }}
@@ -247,10 +247,10 @@
     DOMAIN-SUFFIX,muscdn.com,{{ rule }}
     DOMAIN-SUFFIX,musical.ly,{{ rule }}
     DOMAIN-SUFFIX,tiktok.com,{{ rule }}
-    DOMAIN-SUFFIX,tik tokapi.com,{{ rule }}
+    DOMAIN-SUFFIX,tik-tokapi.com,{{ rule }}
     DOMAIN-SUFFIX,tiktokcdn.com,{{ rule }}
     DOMAIN-SUFFIX,tiktokv.com,{{ rule }}
-    DOMAIN-KEYWORD, tiktokcdn com,{{ rule }}
+    DOMAIN-KEYWORD,tiktokcdn.com,{{ rule }}
   # > Twitch
     PROCESS-NAME,tv.twitch.android.app,{{ rule }}
     DOMAIN-SUFFIX,jtvnw.net,{{ rule }}
